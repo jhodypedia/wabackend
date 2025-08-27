@@ -1,4 +1,4 @@
-import { downloadContentFromMessage, proto } from "@whiskeysockets/baileys";
+import { downloadContentFromMessage, proto } from "baileys";
 import { createWriteStream, existsSync, mkdirSync, createReadStream } from "fs";
 import path from "path";
 import mime from "mime";
