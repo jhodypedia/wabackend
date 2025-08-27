@@ -5,7 +5,7 @@ import makeWASocket, {
   WASocket,
   proto,
   DisconnectReason
-} from "@whiskeysockets/baileys";
+} from "baileys";
 import pino from "pino";
 import path from "path";
 import fs from "fs";
