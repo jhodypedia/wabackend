@@ -18,6 +18,7 @@ const PORT_WS = Number(process.env.PORT_WS || 3002);
 const app = express();
 app.use(cors());
 app.use(bodyParser.json({ limit: "5mb" }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // public auth
 app.use("/api", authRoutes);
